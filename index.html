@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tipos de entradas de dados2</title>
+</head>
+<body>
+  <h1>Exemplo de formulário</h1>
+  
+  <fieldset>
+  <legend>Dados pessoais</legend>
+  <label>Email</label>
+  <input type="email" placeholder="digite um e-mail válido">
+  <br>
+  
+  <label for="">número de filhos</label>
+  <input type="number"min=0 max="30">
+  <br>
+
+  <label for="">nascimento</label>
+  <input type="date" min="1990-01-01"max="2021-01-01">
+  
+  <p>Sexo:</p>
+  
+  <label for="">Masculino</label>
+  <input type="radio" name="sexo" value="M">
+  <label for="">Feminino</label>
+  <input type="radio" name="sexo" value="F">
+  
+  <br>
+  
+  <label for="">Estado</label>
+<select name="Estado">
+  <option value="RJ">Rio de Janeiro</option>
+  <option value="SP">São Paulo</option>
+  <option value="ES">Espírito Santo</option>
+  <option value="MG">Minas Gerais</option>
+  <option value="GO">Goiania</option>
+</select>
+</fieldset>
+
+<fieldset>
+  <legend>Área de interesse</legend>
+  <input type="checkbox" name="HTML5" value="html">HTML5
+  <input type="checkbox" name="CSS" value= "CSS">CSS
+  <input type="checkbox" name="JAVASCRIPT" value="JS">JavaScript
+  <input type="checkbox" name="DOM" value="DOM">DOM
+</fieldset>
+
+<fieldset>
+  <legend>Mensagem</legend>
+  <textarea style="resize: none;" name="msg" id="" cols="30" rows="10" maxlength="20"></textarea>
+
+
+  <textarea style="resize: none;" name="msg" id="" cols="30" rows="10" readonly>Aqui entra o texto do contrato
+  que precisa ser aceito</textarea>
+  
+ 
+  <label><input type="checkbox" checked>Li e aceito</label>
+  
+  <input type="range" min="0" max="15" step="2">
+  <input type="time">
+  <input type="color">
+
+  <select  size="5" multiple>
+    <option>opção1</option>
+    <option>opção2</option>
+    <option>opção3</option>
+    <option>opção4</option>
+    <option>opção5</option>
+
+
+  </select>
+
+</fieldset>
+
+
+
+
+<br>
+  <input type="submit">
+
+  
+</body>
+</html>
